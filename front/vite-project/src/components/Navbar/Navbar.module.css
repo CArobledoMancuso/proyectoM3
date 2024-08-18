@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btnLogin,
+.btnRegister,
+.btnLogout {
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnLogin:hover,
+.btnRegister:hover,
+.btnLogout:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+

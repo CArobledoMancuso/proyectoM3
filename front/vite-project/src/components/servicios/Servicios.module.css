@@ -1,0 +1,26 @@
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .service {
+    margin-bottom: 30px;
+  }
+  
+  .service img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .service h2 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .service p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  

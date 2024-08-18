@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: calc(100vh - 100px);
+  margin-top: 50px; 
+  margin-bottom: 50px; 
+}
+
+.turno {
+  display: flex;
+  flex-direction: column; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px; 
+}
+
+.info {
+  display: flex;
+  flex-direction: column; 
+}
+
+.info label {
+  margin-bottom: 5px; 
+}
+
+.info input,
+.info select {
+  margin-bottom: 10px; 
+  padding: 5px; 
+}
+
+.error {
+  color: red; 
+  font-size: 12px; 
+}
+
+.create-button {
+  align-self: flex-start; 
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-button:disabled {
+  background-color: #ccc; 
+  cursor: not-allowed; 
+}
